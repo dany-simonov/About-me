@@ -72,7 +72,3 @@ I love working with data, building web applications, and creating AI-powered sol
 > _“Always open to new projects and collaborations. Let’s create something amazing together!”_
 
 ---
-
-## License
-
-MIT
