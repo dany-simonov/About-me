@@ -101,6 +101,7 @@ header {
   text-shadow: var(--accent-glow);
 }
 
+
 .section, .container, .skills-marquee {
   max-width: 1200px;
   margin-left: auto;

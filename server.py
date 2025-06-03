@@ -1,5 +1,4 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
-import os
 
 class NoCacheHTTPHandler(SimpleHTTPRequestHandler):
     def send_response_only(self, code, message=None):
