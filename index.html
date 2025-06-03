@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даниил Симонов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="light-theme">
+    <header>
+        <div class="header-content">
+            <div class="logo">DANIIL SIMONOV</div>
+            <nav class="main-nav">
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#competitions">Хакатоны</a>
+                <a href="#education">Образование</a>
+                <a href="#contact">Контакты</a>
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+            </nav>
+        </div>
+    </header>
+<section id="about" class="section about" data-aos="fade-up">
+  <div class="profile-container">
+      <div class="profile-pic">
+          <img src="images/profile.png" alt="Даниил Симонов" class="profile-img">
+      </div>
+      <div class="about-content">
+          <h1>Даниил Симонов</h1>
+          <p class="subtitle">17 лет, Москва</p>
+          
+          <div class="skills-marquee">
+            <div class="marquee-content"
+                 data-content="Python· Git · Docker · Parsing · HTML · CSS · JavaScript · Vue.js · React · SQL · A/B-тестирование · Power BI · Tableau · Miro · Figma · Holst">
+                 Python· Git · AI Integration · Voice Assistant Development · Docker · Parsing · HTML · CSS · JavaScript · Vue.js · React · SQL · A/B-тестирование · Power BI · Tableau · Miro · Figma · Holst
+            </div>
+          </div>
+
+          <div class="about-text">
+                <p>Привет! Меня зовут Даня, и я увлечен миром технологий и анализа данных.</p>
+                <p style="white-space:nowrap;">Я стремлюсь применять свои знания в разработке интересных проектов и решении сложных задач.</p>
+                <p style="white-space:nowrap;">Мне нравится анализ данных, разработка веб-приложений, создание AI-ассистентов и многое другое.</p>
+                <p>Я постоянно учусь новому и готов к совместной работе.</p>
+          </div>
+          <div class="about-tags">
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Сonsulting</span>
+              <span class="tag">Web Development</span>
+              <span class="tag">AI/Machine Learning</span>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="skills" class="section skills" data-aos="fade-up">
+    <h2>Навыки</h2>
+    <div class="skill-category">
+        <h3>Работал</h3>
+        <ul>
+            <li>Python (Pandas, NumPy, Seaborn, Matplotlib, Flask, g4f, Requests, BeautifulSoup, FastAPI)</li>
+            <li>Git / GitHub / GitLab / GitHub Actions</li>
+            <li>Figma/FigJam (интерфейсы, прототипы)</li>
+            <li>A/B-тестирование (Z-тесты, T-тесты)</li>
+            <li>Parsing (BeautifulSoup, requests, Postman)</li>
+        </ul>
+    </div>
+    <div class="skill-category">
+        <h3>Умею, но давно не использовал</h3>
+        <ul>
+            <li>SQL (SQLite, MySQL)</li>
+            <li>JS / HTML / CSS</li>
+            <li>XML / KML разметка</li>
+            <li>Excel, Notion</li>
+            <li>Power BI / Tableau</li>
+        </ul>
+    </div>
+    <div class="skill-category">
+        <h3>Пробовал</h3>
+        <ul>
+            <li>Docker</li>
+            <li>REST API, Slack</li>
+            <li>Unit-тесты (unittest, pytest)</li>
+            <li>Voice Assistant Development</li>
+            <li>AI Integration</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" class="section projects" data-aos="fade-up">
+    <h2>Проекты и достижения</h2>
+    <p class="section-intro">В этом разделе я хотел бы поделиться некоторыми проектами и достижениями, которыми горжусь.</p>
+    <div class="project-card">
+        <h3>Призёр XVI Международного школьного конкурса РЭШ по экономике</h3>
+        <p>Организовано Российской экономической школой и ILoveEconomics.<br>
+        <span style="font-size:0.98em;color:#888;">17.02.2025 – 03.05.2025</span></p>
+    </div>
+    <div class="project-card">
+        <h3>Стажировка в компании "Спутникс" (Технопарк Сколково)</h3>
+        <p>Участвовал в разных этапах разработки: <b>программирование на XML-разметке</b>, <b>3D-моделирование и печать деталей</b> на фотополимерном 3D-принтере, <b>веб-дизайн прототипа приложения в Figma</b>, а также <b>работа в центре управления полётами</b>.<br>
+        <span style="font-size:0.98em;color:#888;">01.08.2024 – 31.08.2024</span></p>
+    </div>
+    <div class="project-card">
+        <h3>StudySphere <span class="project-status">в разработке</span></h3>
+        <p>Образовательная платформа <a href="https://studysphere.volsh.org" target="_blank">studysphere.volsh.org</a>, включающая <b>AI-ассистента на базе 13 нейросетей</b>. Современный фронтенд на <b>HTML, CSS, JavaScript</b> с адаптивной версткой. Интеграция нейросетевых API для генерации и анализа текстов, создания изображений и работы с файлами. Гибкая настройка бота (язык, стиль, длина, креативность, история диалога). Разработана система квизов, учебник. Платформа бесплатна, поддерживает работу на мобильных устройствах, пользователи не ограничены в количестве запросов. Проект активно развивается.<br>
+        <span style="font-size:0.98em;color:#888;">25.12.2024 – НАСТОЯЩЕЕ ВРЕМЯ</span></p>
+    </div>
+    <div class="project-card">
+        <h3>Shopping Copilot <span class="project-status">"IT Purple Hack" 2025</span></h3>
+        <p>AI-powered Shopping Copilot — персональный стилист для Wildberries. Интеллектуальный помощник для подбора одежды и создания стильных образов, снижая когнитивную нагрузку при онлайн-шоппинге.</p>
+    </div>
+</section>
+
+<section id="competitions" class="section competitions" data-aos="fade-up">
+    <h2>Хакатоны и олимпиады</h2>
+    <div class="competitions-grid">
+        <div class="competition-card">
+            <h3>РЭШ — Международный конкурс по экономике</h3>
+            <p>Призёр XVI Международного школьного конкурса РЭШ.<br><span style="font-size:0.98em;color:#888;">2025</span></p>
+        </div>
+        <div class="competition-card">
+            <h3>DANO</h3>
+            <p>Топ-200 из 7619 участников. Анализ компаний российского сектора во время COVID-19.</p>
+        </div>
+        <div class="competition-card">
+            <h3>"IT Purple Hack" 2025</h3>
+            <p>Fullstack-разработчик и продуктовый аналитик. Shopping Copilot - AI-стилист для Wildberries.</p>
+        </div>
+        <div class="competition-card">
+            <h3>"IT Purple Hack" 2024</h3>
+            <p>Продуктовый аналитик. Система CLTV для удержания клиентов Альфа-банка.</p>
+        </div>
+        <div class="competition-card">
+            <h3>Хакатон PROD "Т-Банка"</h3>
+            <p>Веб-разработчик и UI/UX дизайнер. Приложение для разделения счетов в ресторанах.</p>
+        </div>
+        <div class="competition-card">
+            <h3>Дататон 2.0 от "Т-Банка"</h3>
+            <p>Бизнес-аналитик. Улучшение финансового состояния стартапа по доставке еды.</p>
+        </div>
+        <div class="competition-card">
+            <h3>Дататон от "Т-Банка"</h3>
+            <p>Аналитик данных. План запуска проекта в сфере общепита в Калифорнии.</p>
+        </div>
+        <div class="competition-card">
+            <h3>"Nuclear IT Hack"</h3>
+            <p>Продуктовый аналитик. Сервис анализа эмоционального состояния сотрудников.</p>
+        </div>
+        <div class="competition-card">
+            <h3>Дальше</h3>
+            <p>Больше</p>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section education" data-aos="fade-up">
+    <h2>Образование</h2>
+    <div class="education-timeline">
+        <div class="education-item">
+            <h3>Школа № 2123 имени Мигеля Эрнандеса</h3>
+            <p>11 класс, Математическая вертикаль Плюс</p>
+        </div>
+        <div class="education-item">
+            <h3>Яндекс.Лицей</h3>
+            <p>Промышленное программирование на Python</p>
+        </div>
+        <div class="education-item">
+            <h3>Дополнительное образование</h3>
+            <ul>
+                <li>Летняя школа по программной инженерии от ФКН НИУ ВШЭ</li>
+                <li>Мегаинтенсив по анализу данных от ЦНО ФКН</li>
+                <li>Зимняя школа по программной инженерии от ФКН НИУ ВШЭ</li>
+                <li><span style="white-space:nowrap">Лекции на конференциях: RUCODE, Purple Conf, MTS True Tech Day, Яндекс Conf и другие.</span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact" data-aos="fade-up">
+    <h2>Контакт</h2>
+    <p class="contact-intro">Если ты хочешь обсудить проект, дать совет, задать вопрос или просто поболтать, вот как со мной можно связаться:</p>
+    <div class="contact-grid">
+        <a href="https://t.me/dany_simonov" class="contact-item">
+            <i class="fab fa-telegram"></i>
+            <span>@dany_simonov</span>
+        </a>
+        <a href="https://github.com/dany-simonov" class="contact-item">
+            <i class="fab fa-github"></i>
+            <span>dany-simonov</span>
+        </a>
+        <a href="tel:+79013874945" class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+7 901 387 49 45</span>
+        </a>
+        <a href="mailto:dany.ssimon2007@yandex.ru" class="contact-item wide-email">
+            <i class="fas fa-envelope"></i>
+            <span>dany.ssimon2007@yandex.ru</span>
+        </a>
+    </div>
+    <p class="collaboration-note">Я всегда открыт к интересным проектам и новым знакомствам. Если есть идеи, предложения или просто хочется пообщаться - пиши! Буду рад обсудить.</p>
+</section>
+
+<footer id="contact" class="section" data-aos="fade-up">
+    <div class="social-links">
+        <a href="https://t.me/dany_simonov" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:dany.ssimon2007@yandex.ru"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="copyright">
+        © 2024-2025 Симонов Даниил. Все права защищены.
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
