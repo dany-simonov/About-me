@@ -1,7 +1,5 @@
 # Daniil Simonov — Personal Portfolio
 
-![Profile Banner](images/profile.png)
-
 Welcome to my personal portfolio!  
 Here you’ll find my projects, achievements, skills, and contact information.
 
@@ -72,20 +70,6 @@ I love working with data, building web applications, and creating AI-powered sol
 ---
 
 > _“Always open to new projects and collaborations. Let’s create something amazing together!”_
-
----
-
-## ✨ Preview
-
-![Preview](images/preview.png)
-
----
-
-## 🖌️ Design & Tech Stack
-
-- **HTML5, CSS3, JavaScript**
-- **Responsive, modern, animated UI**
-- **AOS (Animate On Scroll), FontAwesome, Figma**
 
 ---
 
